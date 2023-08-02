@@ -1,0 +1,107 @@
+.creatorName {
+  color: #f2f6f7 !important;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+  text-align: center;
+  background-color: #282c34 !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.App {
+  padding-top: 20px;
+  text-align: center;
+  background-color: #5e6168;
+
+}
+
+.Player {
+  /* background-color: ; */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+}
+
+.App-header:hover {
+  background-color: #282c34;
+  min-height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(20px + 2vmin);
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 8px 16px rgba(0, 0, 0, 0.1);
+
+}
+
+.App-header:active {
+  transform: translateY(1px);
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.YouTubeLink {
+  text-decoration: none;
+}
+
+.nextbutton {
+  text-decoration: none;
+  background-color: rgb(72, 77, 77);
+  font-size: 30px;
+  padding: 12px 24px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.nextbutton:hover {
+  cursor: pointer;
+  background-color: rgb(29, 31, 31);
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.nextbutton:active {
+  transform: translateY(1px);
+}
+
+.footer {
+  padding-bottom: 1%;
+  text-align: justify;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #5e6168;
+}
